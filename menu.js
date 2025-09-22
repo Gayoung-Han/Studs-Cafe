@@ -238,7 +238,7 @@ Object.keys(menuData).forEach(category => {
 
     menuItem.innerHTML = `
       
-      <img src="${item.image}" alt="${item.name}" loading="lazy">
+      <img src="${item.image}" alt="${item.name}" loading="lazy"/>
     
       <div class="menu-info">
         <h3 class="item-name">${item.name}</h3>
