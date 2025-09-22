@@ -17,6 +17,7 @@ html, body {
 body {
   max-width: 430px;    
   margin: 0 auto;
+  
 }
 
 
@@ -39,6 +40,7 @@ body {
   background: #f5f5f5;
   border-radius: 20px;
   font-size: 14px;
+  color: #214255;
 }
 
 .filter-bar button.active {
@@ -59,6 +61,7 @@ body {
     margin-left: 27px;
     padding-top: 28px;
     font-weight: 400;
+    color: #214255;
 }
 
 .menu-item{
@@ -71,6 +74,7 @@ body {
 
 .menu-info{
     width:100%;
+    color:#214255;
 }
 
 
