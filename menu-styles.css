@@ -6,7 +6,7 @@ html, body {
   max-width: 100%;        
   box-sizing: border-box;
   font-family: sans-serif;
-  background: white;   
+  background: white;
 }
 
 *, *::before, *::after {
@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   
 }
+
 
 
 
@@ -50,7 +51,8 @@ body {
 
 /* menu section */
 .menu-section {
-    background-color: #BDCFE2;
+  background: linear-gradient(to bottom, #BDCFE2 0%, #D9E3ED 70%, #F5F8FB 100%);
+    /* background-color: #BDCFE2; */
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 45px;
