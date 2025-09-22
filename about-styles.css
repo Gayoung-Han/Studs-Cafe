@@ -1,0 +1,61 @@
+/* ------- body start ---------- */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;        
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: white;   
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Mobile first */
+body {
+  max-width: 430px;    
+  margin: 0 auto;
+}
+/* ------- body end ---------- */
+
+
+.container {
+  margin-bottom: 24px;
+}
+
+/* ------- hero image start ---------- */
+.hero-image {
+    max-width: 100%;
+    border-bottom-right-radius: 197px;
+    width: auto;
+    height: auto;
+    
+}
+/* ------- hero image end ---------- */
+
+/* ------- info text start ---------- */
+.text-container {
+    background-color: #fffbea;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 1rem;
+    margin-top: 80px;
+    text-align: left;
+    color: #293329;
+}
+/* ------- info text end ---------- */
+
+.gradient-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: rgb(204, 47, 47);
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f3f3f3, #007acc); 
+    box-shadow: 4px 4px 8px rgba(181, 105, 105, 0.5); 
+    cursor: pointer;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="menu-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Studs Cafe</title>
+</head>
+<body>
+      <!-- Hamburger bar -->
+   <header class="header">
+         <div class="topnav">
+  <a href="index.html" id="logo" class="active">
+    <img src="images/logo design.png" alt="Studs Cafe Logo" class="logo-img">
+  </a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </header>
+    <!-- Filter Bar -->
+  <div class="filter-bar">
+    <button data-target="Matcha & Hojicha (One Size)">Matcha & Hojicha</button>
+    <button data-target="Hot Drinks (Small/ Large)">Hot Drinks</button>
+    <button data-target="Cold Drinks (One Size)">Cold Drinks</button>
+    <button data-target="Organic Tea & Herbal Blends">Organic Tea</button>
+    <button data-target="Pastries">Pastries</button>
+  </div>
+  <!-- Menu sections -->
+   <main id="menu-container"></main>
+   
+   <!-- footer -->
+     <footer>
+<img src="images/logo design.png" alt="Studs Cafe Logo" class="footer-img">
+        <div class="contact-info">
+          <p class="contact-title">Contacts</p>
+          <p class="contact-text">+45 1234567</p>
+          <p class="contact-text">info@studscafe.dk</p>
+          <p class="contact-text">Studsgade 1, 800 Aarhus</p>
+          <p class="contact-title">Open Hours</p>
+          <p class="contact-text">Mon-Sat 10:00 - 18:00</p>
+          <p class="contact-text">Sun 11:00 - 16:00</p>
+          <p class="contact-title">Stay Connected</p>
+           <div class="social-icons">
+          <a href="https://studscafe.dk//">
+          <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/studs.cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <i class="fab fa-instagram"></i>
+          </a>
+         
+        </div>
+            </p>
+        </div>
+    </footer>
+  <script src="menu.js"></script>
+  <!-- hamburger menu bar js starts -->
+ <script>
+            function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+        </script>
+    <!-- hamburger menu bar js ends -->
+
+</body>
+</html>

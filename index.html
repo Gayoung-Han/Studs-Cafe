@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=430, initial-scale=1.0">
+    <title>Studs Cafe</title>
+    <!-- footer logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- hamburger menu bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hamburger bar -->
+   <header class="header">
+         <div class="topnav">
+  <a href="index.html" id="logo">
+    <img src="images/logo design.png" alt="Studs Cafe Logo" class="logo-img" loading="lazy">
+  </a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </header>
+
+
+    <section class="hero">
+        <video class="hero-img" src="images/img-hero.mp4" autoplay loop muted playsinline></video>
+        <div class="hero-text">
+          <a href="menu.html">
+            <button class="main-btn">Matcha and Goods</button>
+          </a>  
+        </div>
+      </scetion>
+    <section class="drinks">
+        <h2>Most-loved<br>drinks</h2>
+        <div class="drink-card">
+            <img src="images/img-strawberry.png" alt="Strawberry Matcha Latte" loading="lazy">
+        </div>
+        <div class="drink-card">
+            <img src="images/img-lemon.png" alt="Lemon Raspberry Coconut Matcha" loading="lazy">
+        </div>
+        <div class="drink-card">
+            <img src="images/img-blueberry.png" alt="Blueberry Matcha Latte" loading="lazy">
+        </div>
+      <a href="menu.html">
+        <button class="secondary-btn">Explore Our Menu</button>
+      </a>  
+    </section>
+    <section class="events">
+    <h2>Upcoming<br>events</h2>
+    <img src="images/img-event.png" alt="Host Fest Event" class="event-img" loading="lazy">
+</section>
+    <footer>
+<img src="images/logo design.png" alt="Studs Cafe Logo" class="footer-img" loading="lazy">
+        <div class="contact-info">
+          <p class="contact-title">Contacts</p>
+          <p class="contact-text">+45 1234567</p>
+          <p class="contact-text">info@studscafe.dk</p>
+          <p class="contact-text">Studsgade 1, 800 Aarhus</p>
+          <p class="contact-title">Open Hours</p>
+          <p class="contact-text">Mon-Sat 10:00 - 18:00</p>
+          <p class="contact-text">Sun 11:00 - 16:00</p>
+          <p class="contact-title">Stay Connected</p>
+           <div class="social-icons">
+          <a href="https://studscafe.dk//">
+          <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/studs.cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <i class="fab fa-instagram"></i>
+          </a>
+         
+        </div>
+            </p>
+        </div>
+    </footer>
+     <script>
+            function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+        </script>
+</body>
+</html>
