@@ -4,7 +4,7 @@ html, body {
   width: 100%;
   max-width: 100%;        
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: sans-serif, system-ui, 'Open Sans', 'Helvetica Neue';
   background: white;   
 }
 
@@ -35,7 +35,9 @@ body {
   display: none;
 }
 
-
+#myLinks a{
+    font-size: 20px;
+}
 .icon {
   display: flex;
   align-items: center; /* 세로 가운데 정렬 */
