@@ -14,7 +14,10 @@ html, body {
 
 /* Mobile first */
 body {
+    width: 100%;
   max-width: 430px;    
+  height: auto;
+  display: block;
   margin: 0 auto;
 }
 
@@ -85,9 +88,9 @@ body {
 }
 .hero-text {
     position: absolute;
-    bottom: 2750px; 
+    top: 19%; 
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
     width: 80%;
@@ -182,7 +185,14 @@ body {
 .event-img {
     width: 100%;
     border-radius: 16px;
+     transition: filter 0.3s ease;
 }
+
+.event-img:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
 footer {
     background: #E8F5FF; 
     color: #214255;

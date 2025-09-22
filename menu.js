@@ -4,7 +4,7 @@ const menuData = {
   "Matcha & Hojicha (One Size)": [
     {
       name: "Ceremonial Matcha",
-      description: "AAA+ Piohni / Ceremonial Grade",
+      description: "AAA+ Piohni",
       price: "49 DKK",
       image: "/Menu Image/DR-MAT-1.png"
     },
@@ -28,7 +28,7 @@ const menuData = {
     },
     {
       name: "Strawberry Matcha",
-      description: "Handmade strawberry syrup",
+      description: "Studs' best seller",
       price: "59 DKK",
       image: "/Menu Image/DR-MAT-5.png"
     },
@@ -52,7 +52,7 @@ const menuData = {
     },
     {
       name: "Hojicha Latte",
-      description: "100% organic Japanese quality",
+      description: "100% Japanese quality",
       price: "55 DKK",
       image: "/Menu Image/DR-MAT-9.png"
     },
@@ -64,7 +64,7 @@ const menuData = {
     },
     {
       name: "Cream Cloud",
-      description: "_ADD-ONS: 100% Danish Cloud",
+      description: "_ADD-ONS: Whipped cream",
       price: "10 DKK",
       image: "/Menu Image/DR-M-ADD-1.png"
     },
