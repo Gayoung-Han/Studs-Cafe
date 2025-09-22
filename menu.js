@@ -27,7 +27,7 @@ const menuData = {
       image: "/Menu Image/DR-MAT-4.png"
     },
     {
-      name: "Strawberry Matcha (Best Seller)",
+      name: "Strawberry Matcha",
       description: "Handmade strawberry syrup",
       price: "59 DKK",
       image: "/Menu Image/DR-MAT-5.png"
