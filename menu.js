@@ -1,4 +1,4 @@
-// 메뉴 데이터 (섹션별로)
+
 const menuData = {
     //MATCHA
   "Matcha & Hojicha (One Size)": [
